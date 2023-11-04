@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: 8d24d4c56adf8a54fa4bb75af5c01f4c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - TT Travels Next Trl
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: abef3fb6b069be043a998af596c790c4, type: 3}
+  - {fileID: 12800000, guid: 588c1cef9f3d71a43ae5afc7d3ccccb0, type: 3}
+  - {fileID: 12800000, guid: 67488fc503743b94f878196d7b98e40a, type: 3}
+  - {fileID: 12800000, guid: ec22f52b8e88c19409c15848fd5ee8ff, type: 3}
+  - {fileID: 12800000, guid: 0207305e5c1c0aa40ab78b1c8f8d21c1, type: 3}
+  - {fileID: 12800000, guid: 5d250653589ce0c4ab9214dca884cd87, type: 3}
+  - {fileID: 12800000, guid: a991ec6aa314d554c81cc8dee536ff0e, type: 3}
+  - {fileID: 12800000, guid: a4941d92f094ae34ba3826e8dd1f4a95, type: 3}
+  - {fileID: 12800000, guid: bb976b87ed6687d478a7174b8a97bd36, type: 3}
+  - {fileID: 12800000, guid: 963dd16819ea82d4eb79e961bba6cbc7, type: 3}
+  - {fileID: 12800000, guid: 80764b24306204244abd61fb3611cc27, type: 3}
+  - {fileID: 12800000, guid: 0393edd873c345745af548e278b84239, type: 3}
+  - {fileID: 12800000, guid: 801ada812fb0d574ab4eb08242466943, type: 3}
+  - {fileID: 12800000, guid: 2c15c6be114177a438006ecb1a78ae75, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
