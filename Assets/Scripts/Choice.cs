@@ -46,7 +46,7 @@ public class Choice : MonoBehaviour
         {
             _buttons[i].GetComponent<Button>().interactable = true;
             _buttons[i].GetComponent<Image>().sprite = _redButton;
-            _buttons[i].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+            _buttons[i].GetComponent<Image>().color = new Color32(248, 165, 186, 255);
             for (int b = 0; b < _buttons[i].GetComponentsInChildren<Text>().Length; b++)
             {
                 _buttons[i].GetComponentsInChildren<Text>()[b].color = Color.white;
