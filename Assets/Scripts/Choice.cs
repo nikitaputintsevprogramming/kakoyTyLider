@@ -14,7 +14,7 @@ public class Choice : MonoBehaviour
 
     void Start()
     {
-        
+        _nextButton.interactable = false;
     }
 
     void Update()
@@ -37,6 +37,7 @@ public class Choice : MonoBehaviour
         }
 
         _nextButton.GetComponent<Image>().sprite = _whiteButton;
+        _nextButton.interactable = true;
     }
 
     public void ResetButton()
@@ -53,5 +54,6 @@ public class Choice : MonoBehaviour
         }
 
         _nextButton.GetComponent<Image>().sprite = _redButton;
+        _nextButton.interactable = false;
     }
 }
