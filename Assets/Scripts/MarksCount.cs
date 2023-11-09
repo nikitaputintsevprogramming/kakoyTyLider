@@ -15,4 +15,9 @@ public class MarksCount : MonoBehaviour
     {
         
     }
+
+    public void AddMark(int mark)
+    {
+        print(marks[mark-1]);
+    }
 }
