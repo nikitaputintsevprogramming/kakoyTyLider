@@ -576,8 +576,8 @@ MonoBehaviour:
   _nextButton: {fileID: 414720406}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &18077254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1170,8 +1170,8 @@ MonoBehaviour:
   _nextButton: {fileID: 2084954527}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &45859359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1350,8 +1350,8 @@ MonoBehaviour:
   _nextButton: {fileID: 272005317}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &66017266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1508,8 +1508,8 @@ MonoBehaviour:
   _nextButton: {fileID: 873450229}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &71133677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2724,8 +2724,8 @@ MonoBehaviour:
   _nextButton: {fileID: 414720406}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &114103493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4244,8 +4244,8 @@ MonoBehaviour:
   _nextButton: {fileID: 873450229}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &184130431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4424,8 +4424,8 @@ MonoBehaviour:
   _nextButton: {fileID: 414720406}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &186971368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6148,7 +6148,7 @@ MonoBehaviour:
   - {fileID: 710256054}
   _nextButton: {fileID: 1848872324}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
-  _redButton: {fileID: 21300000, guid: 9e36313dde4159c45b3f2c8185382c6e, type: 3}
+  _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
   _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
   _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!1 &247418195
@@ -8334,8 +8334,8 @@ MonoBehaviour:
   _nextButton: {fileID: 697140506}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &334907979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8975,8 +8975,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1915593213}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &363221394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9133,8 +9133,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1005274798}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &370754050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9291,8 +9291,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1543414855}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &372374865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9676,8 +9676,8 @@ MonoBehaviour:
   _nextButton: {fileID: 198176803}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &386450817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11351,8 +11351,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1166741299}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &455147027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12664,8 +12664,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1580607794}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &504880505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13195,8 +13195,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1915593213}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &523063586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15353,8 +15353,8 @@ MonoBehaviour:
   _nextButton: {fileID: 873450229}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &593763826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16317,8 +16317,8 @@ MonoBehaviour:
   _nextButton: {fileID: 272005317}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &640041871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16620,8 +16620,8 @@ MonoBehaviour:
   _nextButton: {fileID: 11313646}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &654737918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17540,7 +17540,7 @@ MonoBehaviour:
   - {fileID: 710256054}
   _nextButton: {fileID: 1848872324}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
-  _redButton: {fileID: 21300000, guid: 9e36313dde4159c45b3f2c8185382c6e, type: 3}
+  _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
   _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
   _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!1 &715271188
@@ -17736,8 +17736,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1580607794}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &718768803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18603,8 +18603,8 @@ MonoBehaviour:
   _nextButton: {fileID: 414720406}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &767334753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18855,8 +18855,8 @@ MonoBehaviour:
   _nextButton: {fileID: 697140506}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &781553089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19633,8 +19633,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1160663860}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &821631299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19960,8 +19960,8 @@ MonoBehaviour:
   _nextButton: {fileID: 198176803}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &856722462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20802,8 +20802,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1301588573}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &905590244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21379,8 +21379,8 @@ MonoBehaviour:
   _nextButton: {fileID: 11313646}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &929377669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22191,8 +22191,8 @@ MonoBehaviour:
   _nextButton: {fileID: 11313646}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &957460901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22482,8 +22482,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1301588573}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &982030857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23826,8 +23826,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1160663860}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1033853914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24521,8 +24521,8 @@ MonoBehaviour:
   _nextButton: {fileID: 198176803}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1067672565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25640,8 +25640,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1915593213}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1122464148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26555,8 +26555,8 @@ MonoBehaviour:
   _nextButton: {fileID: 198176803}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1149436785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27176,8 +27176,8 @@ MonoBehaviour:
   _nextButton: {fileID: 697140506}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1185260698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27465,8 +27465,8 @@ MonoBehaviour:
   _nextButton: {fileID: 272005317}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1203225748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29190,8 +29190,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1166741299}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1320689987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29481,8 +29481,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1580607794}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1325016530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30913,8 +30913,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1005274798}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1388640051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31376,8 +31376,8 @@ MonoBehaviour:
   _nextButton: {fileID: 2084954527}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1403452818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33758,8 +33758,8 @@ MonoBehaviour:
   _nextButton: {fileID: 11313646}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1469731156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34031,7 +34031,7 @@ MonoBehaviour:
   - {fileID: 710256054}
   _nextButton: {fileID: 1848872324}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
-  _redButton: {fileID: 21300000, guid: 9e36313dde4159c45b3f2c8185382c6e, type: 3}
+  _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
   _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
   _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!1 &1476806476
@@ -34241,8 +34241,8 @@ MonoBehaviour:
   _nextButton: {fileID: 2084954527}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1485913004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34470,8 +34470,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1580607794}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1492001831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34907,8 +34907,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1543414855}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1515134112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36787,8 +36787,8 @@ MonoBehaviour:
   _nextButton: {fileID: 272005317}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1603217547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37205,7 +37205,7 @@ MonoBehaviour:
   - {fileID: 710256054}
   _nextButton: {fileID: 1848872324}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
-  _redButton: {fileID: 21300000, guid: 9e36313dde4159c45b3f2c8185382c6e, type: 3}
+  _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
   _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
   _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!1 &1617474261
@@ -38287,8 +38287,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1005274798}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1670464567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38776,8 +38776,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1166741299}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1675329520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39373,8 +39373,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1301588573}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1708998359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39531,8 +39531,8 @@ MonoBehaviour:
   _nextButton: {fileID: 873450229}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1709490675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42556,8 +42556,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1543414855}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1862893291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43001,8 +43001,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1160663860}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1888371480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44734,8 +44734,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1166741299}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1982073985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45190,8 +45190,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1301588573}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &1998912101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45666,8 +45666,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1160663860}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &2013246860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45955,8 +45955,8 @@ MonoBehaviour:
   _nextButton: {fileID: 2084954527}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &2022923402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46775,8 +46775,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1005274798}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &2066917745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47607,8 +47607,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1543414855}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &2115360515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47880,8 +47880,8 @@ MonoBehaviour:
   _nextButton: {fileID: 1915593213}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &2128952931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48791,8 +48791,8 @@ MonoBehaviour:
   _nextButton: {fileID: 697140506}
   _whiteButton: {fileID: 21300000, guid: d4d0028276afe2a4f8d55a742f63459b, type: 3}
   _redButton: {fileID: 21300000, guid: 8be8ee054c30c5a4ca751e18dcde5068, type: 3}
-  _whiteButtonNext: {fileID: 0}
-  _noneButtonNext: {fileID: 0}
+  _whiteButtonNext: {fileID: 21300000, guid: 8c553048de54976489ad6efc85eb8498, type: 3}
+  _noneButtonNext: {fileID: 21300000, guid: 0ca948edc292e3548a3a33e87f7ff83f, type: 3}
 --- !u!114 &2143635560
 MonoBehaviour:
   m_ObjectHideFlags: 0
