@@ -10,6 +10,9 @@ public class Choice : MonoBehaviour
     [SerializeField] private Sprite _whiteButton;
     [SerializeField] private Sprite _redButton;
 
+    [SerializeField] private Sprite _whiteButtonNext;
+    [SerializeField] private Sprite _noneButtonNext;
+
     private bool isClicked = false;
 
     void Start()
@@ -36,7 +39,7 @@ public class Choice : MonoBehaviour
             _buttons[i].GetComponent<Button>().interactable = false;
         }
 
-        _nextButton.GetComponent<Image>().sprite = _whiteButton;
+        _nextButton.GetComponent<Image>().sprite = _whiteButtonNext;
         _nextButton.interactable = true;
     }
 
@@ -53,7 +56,7 @@ public class Choice : MonoBehaviour
             }
         }
 
-        _nextButton.GetComponent<Image>().sprite = _redButton;
+        _nextButton.GetComponent<Image>().sprite = _noneButtonNext;
         _nextButton.interactable = false;
     }
 }
