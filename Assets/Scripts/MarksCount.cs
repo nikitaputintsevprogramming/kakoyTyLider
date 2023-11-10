@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class MarksCount : MonoBehaviour
 {
-    [SerializeField] private int _blocks = 5;
+    [SerializeField] private float[] _MarksInBlocks = new float[5];
     [SerializeField] private int _questionsInBlock = 3;
 
-    [SerializeField] private int _currentQuestion = 1;
+    [SerializeField] private int _currentQuestion = 0;
+    [SerializeField] private int _currentBlock = 0;
     [SerializeField] private float _countMarks = 0;
-    [SerializeField] private int[] _currentMarks;
+    
 
     void Start()
     {
@@ -22,15 +23,17 @@ public class MarksCount : MonoBehaviour
     }
 
     public void AddMark(float mark)
-    {
-        print(mark);
-
+    { 
         _currentQuestion++;
         _countMarks += mark;
-        if (_currentQuestion > _questionsInBlock)
+        Debug.LogFormat("Текущий блок:{0}, текущий вопрос:{1},  баллы:{2}", _currentBlock, _currentQuestion, _countMarks);
+        if (_currentQuestion == _questionsInBlock)
         {
-            Debug.LogFormat("Блок закончился. Вы набрали в блоке:{0} столько баллов:{1}", "ХЗ пока", _countMarks);
+            Debug.LogFormat("Блок закончился. Вы набрали в блоке:{0} столько баллов:{1}", _currentBlock, _countMarks);
+            _MarksInBlocks[_currentBlock] = _countMarks;
+            _currentBlock++;
             _countMarks = 0;
+            
         }
     }
 
@@ -38,6 +41,6 @@ public class MarksCount : MonoBehaviour
     {
         _currentQuestion = 0;
         _countMarks = 0;
-        
+        _currentBlock = 0;
     }
 }
