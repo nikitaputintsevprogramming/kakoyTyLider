@@ -19670,7 +19670,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 752769869}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2884c2c09310be74d95b33a4dfcfe827, type: 3}
   m_Name: 
@@ -44401,6 +44401,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1937042884}
+        m_TargetAssemblyTypeName: Marks.MarksCount, Assembly-CSharp
+        m_MethodName: ShowRes
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1801118275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46968,6 +46980,13 @@ MonoBehaviour:
   _currentQuestion: 0
   _currentBlock: 0
   _countMarks: 0
+  _resultDiagramms:
+  - {fileID: 2003569188}
+  - {fileID: 641605320}
+  - {fileID: 847090626}
+  - {fileID: 446646550}
+  - {fileID: 94016306}
+  isOnResults: 0
 --- !u!4 &1937042885
 Transform:
   m_ObjectHideFlags: 0
