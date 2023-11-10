@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class MarksCount : MonoBehaviour
 {
-    [SerializeField] private float[] _marks;
     [SerializeField] private int _blocks = 5;
     [SerializeField] private int _questionsInBlock = 3;
 
@@ -22,15 +21,23 @@ public class MarksCount : MonoBehaviour
         
     }
 
-    public void AddMark(int mark)
+    public void AddMark(float mark)
     {
-        print(_marks[mark-1]);
+        print(mark);
+
         _currentQuestion++;
-        _countMarks += _marks[mark - 1];
-        if (_currentQuestion == _questionsInBlock)
+        _countMarks += mark;
+        if (_currentQuestion > _questionsInBlock)
         {
             Debug.LogFormat("Блок закончился. Вы набрали в блоке:{0} столько баллов:{1}", "ХЗ пока", _countMarks);
             _countMarks = 0;
         }
+    }
+
+    public void ResetMarks()
+    {
+        _currentQuestion = 0;
+        _countMarks = 0;
+        
     }
 }
