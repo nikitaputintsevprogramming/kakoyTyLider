@@ -10,17 +10,6 @@ public class MarksCount : MonoBehaviour
     [SerializeField] private int _currentQuestion = 0;
     [SerializeField] private int _currentBlock = 0;
     [SerializeField] private float _countMarks = 0;
-    
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
 
     public void AddMark(float mark)
     { 
@@ -32,8 +21,8 @@ public class MarksCount : MonoBehaviour
             Debug.LogFormat("Блок закончился. Вы набрали в блоке:{0} столько баллов:{1}", _currentBlock, _countMarks);
             _MarksInBlocks[_currentBlock] = _countMarks;
             _currentBlock++;
+            _currentQuestion = 0;
             _countMarks = 0;
-            
         }
     }
 
