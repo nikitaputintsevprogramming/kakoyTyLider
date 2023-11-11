@@ -35,11 +35,7 @@ public class KeyboardScript : MonoBehaviour
         }
     }
 
-    //private void SelectField()
-    //{
-    //    Debug.Log("выбираю поле");
 
-    //}
 
     public void alphabetFunction(string alphabet)
     {
