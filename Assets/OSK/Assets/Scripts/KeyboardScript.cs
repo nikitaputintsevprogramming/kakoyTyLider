@@ -12,30 +12,34 @@ public class KeyboardScript : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            SelectField();
-        }
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //    SelectField();
+        //}
 
-        if (Input.touchCount > 0)
-        {
-            Touch touch = Input.GetTouch(0);
+        //if (Input.touchCount > 0)
+        //{
+        //    Touch touch = Input.GetTouch(0);
 
-            if (touch.phase == TouchPhase.Began)
-            {
-                SelectField();
-            }
-        }
-    }
-
-    private void SelectField()
-    {
-        for(int count = 0; count <= TextFields.Length; count++)
+        //    if (touch.phase == TouchPhase.Began)
+        //    {
+        //        SelectField();
+        //    }
+        //}
+        for (int count = 0; count <= TextFields.Length - 1; count++)
         {
+            //Debug.Log(count);
+            Debug.Log(TextFields[count].isFocused);
             if (TextFields[count].isFocused)
                 TextField = TextFields[count];
         }
     }
+
+    //private void SelectField()
+    //{
+    //    Debug.Log("выбираю поле");
+
+    //}
 
     public void alphabetFunction(string alphabet)
     {
