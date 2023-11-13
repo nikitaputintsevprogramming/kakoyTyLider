@@ -5,10 +5,12 @@ using UnityEngine.UI;
 
 public class KeyboardScript : MonoBehaviour
 {
-
     public InputField TextField;
     [SerializeField] private InputField[] TextFields;
+    public GameObject cursor;
     public GameObject RusLayoutSml, RusLayoutBig, EngLayoutSml, EngLayoutBig, SymbLayout;
+
+    public int arrowPos;
 
     private void Update()
     {
@@ -26,49 +28,74 @@ public class KeyboardScript : MonoBehaviour
         //        SelectField();
         //    }
         //}
+        
+
         for (int count = 0; count <= TextFields.Length - 1; count++)
         {
-            //Debug.Log(count);
-            Debug.Log(TextFields[count].isFocused);
+            //Debug.Log(TextFields[count].isFocused);
             if (TextFields[count].isFocused)
+            {
                 TextField = TextFields[count];
+                //cursor.transform.position = TextField.transform.position;
+            }
         }
+        Debug.Log(TextField.caretPosition);
+        
     }
 
+    public void LeftArrowFunction()
+    {   
+        //if (TextField.caretPosition >= TextField.text.Length)
+            TextField.caretPosition = TextField.caretPosition + 1;
+        print(TextField.caretPosition);
+    }
 
+    public void RightArrowFunction()
+    {
+        //if (TextField.caretPosition <= 0)
+            TextField.caretPosition = TextField.caretPosition - 1;
+        print(TextField.caretPosition);
+    }
 
     public void alphabetFunction(string alphabet)
     {
+        TextField.text = TextField.text.Insert(TextField.text.Length - TextField.caretPosition, alphabet);
+        //RightArrowFunction();
+        //TextField.caretPosition = TextField.text.Length;
+        //TextField.text.Insert(TextField.caretPosition, alphabet);
 
-
-        TextField.text=TextField.text + alphabet;
-
+        //TextField.ForceLabelUpdate();
+        //TextField.MoveTextEnd(true);
+        //TextField.ActivateInputField();
     }
 
     public void BackSpace()
     {
-
-        if(TextField.text.Length>0) TextField.text= TextField.text.Remove(TextField.text.Length-1);
-
+        //if(TextField.text.Length>0) TextField.text= TextField.text.Remove(TextField.text.Length-1, 1);
+        if (TextField.caretPosition > 0)
+        {
+            int leftIndex = TextField.caretPosition + 1;
+            TextField.text = TextField.text.Remove(leftIndex, 1);
+            //RightArrowFunction();
+        }
+        else
+        {
+            TextField.text = TextField.text.Remove(TextField.text.Length - 1);
+        }
     }
 
     public void CloseAllLayouts()
     {
-
         RusLayoutSml.SetActive(false);
         RusLayoutBig.SetActive(false);
         EngLayoutSml.SetActive(false);
         EngLayoutBig.SetActive(false);
         SymbLayout.SetActive(false);
-
     }
 
     public void ShowLayout(GameObject SetLayout)
     {
-
         CloseAllLayouts();
         SetLayout.SetActive(true);
-
     }
-
 }
