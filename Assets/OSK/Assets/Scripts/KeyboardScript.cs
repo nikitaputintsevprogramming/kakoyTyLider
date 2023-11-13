@@ -28,7 +28,6 @@ public class KeyboardScript : MonoBehaviour
         //        SelectField();
         //    }
         //}
-        
 
         for (int count = 0; count <= TextFields.Length - 1; count++)
         {
@@ -37,6 +36,10 @@ public class KeyboardScript : MonoBehaviour
             {
                 TextField = TextFields[count];
                 //cursor.transform.position = TextField.transform.position;
+                if(TextField.name == "phone")
+                {
+                    TextFields[count].text = "+7";   
+                }
             }
         }
         Debug.Log(TextField.caretPosition);
@@ -60,6 +63,7 @@ public class KeyboardScript : MonoBehaviour
     public void alphabetFunction(string alphabet)
     {
         TextField.text = TextField.text.Insert(TextField.text.Length - TextField.caretPosition, alphabet);
+        TextField.Select();
         //RightArrowFunction();
         //TextField.caretPosition = TextField.text.Length;
         //TextField.text.Insert(TextField.caretPosition, alphabet);
