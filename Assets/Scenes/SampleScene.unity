@@ -1629,6 +1629,7 @@ GameObject:
   - component: {fileID: 36134776}
   - component: {fileID: 36134775}
   - component: {fileID: 36134774}
+  - component: {fileID: 36134777}
   m_Layer: 5
   m_Name: father
   m_TagString: Untagged
@@ -1764,6 +1765,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36134772}
   m_CullTransparentMesh: 1
+--- !u!114 &36134777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36134772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 795592e26c0112d49939a38e65c5ac97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSK: {fileID: 856617881}
 --- !u!1 &43904952
 GameObject:
   m_ObjectHideFlags: 0
@@ -3768,7 +3782,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 76839441}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 856617881}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &76839441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11062,6 +11088,7 @@ GameObject:
   - component: {fileID: 239183726}
   - component: {fileID: 239183725}
   - component: {fileID: 239183724}
+  - component: {fileID: 239183727}
   m_Layer: 5
   m_Name: phone
   m_TagString: Untagged
@@ -11197,6 +11224,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239183722}
   m_CullTransparentMesh: 1
+--- !u!114 &239183727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239183722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 795592e26c0112d49939a38e65c5ac97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSK: {fileID: 856617881}
 --- !u!1 &241401271
 GameObject:
   m_ObjectHideFlags: 0
@@ -30915,7 +30955,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 685178222}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 856617881}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &685178222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36913,7 +36965,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &856617882
 RectTransform:
   m_ObjectHideFlags: 0
@@ -46879,7 +46931,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1073135678}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 856617881}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1073135678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49221,7 +49285,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1125838391}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 856617881}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1125838391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53673,6 +53749,7 @@ GameObject:
   - component: {fileID: 1248845316}
   - component: {fileID: 1248845315}
   - component: {fileID: 1248845314}
+  - component: {fileID: 1248845317}
   m_Layer: 5
   m_Name: name
   m_TagString: Untagged
@@ -53808,6 +53885,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248845312}
   m_CullTransparentMesh: 1
+--- !u!114 &1248845317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248845312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 795592e26c0112d49939a38e65c5ac97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSK: {fileID: 856617881}
 --- !u!1 &1255695625
 GameObject:
   m_ObjectHideFlags: 0
@@ -80020,6 +80110,7 @@ GameObject:
   - component: {fileID: 1859046693}
   - component: {fileID: 1859046692}
   - component: {fileID: 1859046691}
+  - component: {fileID: 1859046694}
   m_Layer: 5
   m_Name: email
   m_TagString: Untagged
@@ -80155,6 +80246,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859046689}
   m_CullTransparentMesh: 1
+--- !u!114 &1859046694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859046689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 795592e26c0112d49939a38e65c5ac97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSK: {fileID: 856617881}
 --- !u!1 &1860810649
 GameObject:
   m_ObjectHideFlags: 0
@@ -83317,6 +83421,7 @@ GameObject:
   - component: {fileID: 1945448787}
   - component: {fileID: 1945448786}
   - component: {fileID: 1945448785}
+  - component: {fileID: 1945448788}
   m_Layer: 5
   m_Name: surname
   m_TagString: Untagged
@@ -83452,6 +83557,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1945448783}
   m_CullTransparentMesh: 1
+--- !u!114 &1945448788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945448783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 795592e26c0112d49939a38e65c5ac97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSK: {fileID: 856617881}
 --- !u!1 &1948188052
 GameObject:
   m_ObjectHideFlags: 0
@@ -86950,6 +87068,7 @@ GameObject:
   - component: {fileID: 2032767143}
   - component: {fileID: 2032767142}
   - component: {fileID: 2032767141}
+  - component: {fileID: 2032767144}
   m_Layer: 5
   m_Name: age
   m_TagString: Untagged
@@ -87085,6 +87204,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2032767139}
   m_CullTransparentMesh: 1
+--- !u!114 &2032767144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032767139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 795592e26c0112d49939a38e65c5ac97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OSK: {fileID: 856617881}
 --- !u!1 &2042963295
 GameObject:
   m_ObjectHideFlags: 0
@@ -87540,7 +87672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2046849380
 RectTransform:
   m_ObjectHideFlags: 0
@@ -91422,7 +91554,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2143869851
 RectTransform:
   m_ObjectHideFlags: 0
@@ -91868,7 +92000,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2452114810466669750}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 856617881}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2452114810466669771
 GameObject:
   m_ObjectHideFlags: 0
@@ -92152,7 +92296,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!222 &2452114811600264792
 CanvasRenderer:
   m_ObjectHideFlags: 0
