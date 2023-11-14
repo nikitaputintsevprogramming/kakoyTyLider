@@ -40467,9 +40467,9 @@ MonoBehaviour:
   - {fileID: 1945448785}
   - {fileID: 1248845314}
   - {fileID: 36134774}
-  - {fileID: 239183724}
-  - {fileID: 1859046691}
   - {fileID: 2032767141}
+  - {fileID: 1859046691}
+  - {fileID: 239183724}
   checkMark: {fileID: 536914105}
   vertPag: {fileID: 1848015831}
 --- !u!1 &938867555

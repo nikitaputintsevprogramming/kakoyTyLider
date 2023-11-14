@@ -16,35 +16,35 @@ namespace UI.Pagination
         {
             for (int count = 0; count < TextFields.Length; count++)
             {
-                if (TextFields[count].text.Length != 0 && checkMark.isOn)
+                if (TextFields[count].text.Length != 0 )
                 {
-                    if(TextFields[count].gameObject.name == "phone")
-                    {
-                        if(TextFields[count].text.Length >= 11 && TextFields[count].text.Contains("+7"))
-                        {
-                            Debug.Log("телефон верен");
-                        }
-                        else
-                        {
-                            Debug.Log("телефон не верен!");
-                            break;
-                        }
-                    }
                     if (TextFields[count].gameObject.name == "email")
                     {
                         if (TextFields[count].text.Length >= 3 && TextFields[count].text.Contains("@"))
                         {
                             Debug.Log("почта верна");
-                            
                         }
                         else
                         {
                             Debug.Log("почта не верна!");
+                            StartCoroutine(FeelTheField(count));
                             break;
                         }
                     }
-
-                    vertPag.GetComponent<PagedRect>().NextPage();
+                    if (TextFields[count].gameObject.name == "phone")
+                    {
+                        if (TextFields[count].text.Length >= 11 && TextFields[count].text.Contains("+7"))
+                        {
+                            Debug.Log("телефон верен");
+                            vertPag.GetComponent<PagedRect>().NextPage();
+                        }
+                        else
+                        {
+                            Debug.Log("телефон не верен!");
+                            StartCoroutine(FeelTheField(count));
+                            break;
+                        }
+                    }
                 }
                 else
                 {
@@ -63,14 +63,14 @@ namespace UI.Pagination
             // Уменьшаем альфа-канал от 255 до 0
             while (alpha > 0)
             {
-                alpha -= Time.deltaTime * 50; // Изменение скорости анимации по вашему желанию
+                alpha -= Time.deltaTime * 200; // Изменение скорости анимации по вашему желанию
                 TextFields[num].GetComponent<Image>().color = new Color32(255, 255, 255, (byte)alpha);
                 yield return null;
             }
             // Увеличиваем альфа-канал от 0 до 255
             while (alpha < 255)
             {
-                alpha += Time.deltaTime * 50; // Изменение скорости анимации по вашему желанию
+                alpha += Time.deltaTime * 200; // Изменение скорости анимации по вашему желанию
                 TextFields[num].GetComponent<Image>().color = new Color32(255, 255, 255, (byte)alpha);
                 yield return null;
             }
