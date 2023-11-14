@@ -40329,6 +40329,7 @@ GameObject:
   - component: {fileID: 938439643}
   - component: {fileID: 938439642}
   - component: {fileID: 938439641}
+  - component: {fileID: 938439644}
   m_Layer: 5
   m_Name: next
   m_TagString: Untagged
@@ -40400,9 +40401,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1848015833}
-        m_TargetAssemblyTypeName: UI.Pagination.PagedRect, Assembly-CSharp
-        m_MethodName: NextPage
+      - m_Target: {fileID: 938439644}
+        m_TargetAssemblyTypeName: UI.Pagination.CheckFields, Assembly-CSharp
+        m_MethodName: CheckAnswersInFields
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -40450,6 +40451,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938439639}
   m_CullTransparentMesh: 1
+--- !u!114 &938439644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938439639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6f816fab84f5849abebc8236708fc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextFields:
+  - {fileID: 1945448785}
+  - {fileID: 1248845314}
+  - {fileID: 36134774}
+  - {fileID: 239183724}
+  - {fileID: 1859046691}
+  - {fileID: 2032767141}
+  checkMark: {fileID: 536914105}
+  vertPag: {fileID: 1848015831}
 --- !u!1 &938867555
 GameObject:
   m_ObjectHideFlags: 0
