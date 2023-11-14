@@ -6,11 +6,12 @@ using UnityEngine.UI;
 public class KeyboardScript : MonoBehaviour
 {
     public InputField TextField;
-    [SerializeField] private InputField[] TextFields;
+    //[SerializeField] private InputField[] TextFields;
     public GameObject cursor;
     public GameObject RusLayoutSml, RusLayoutBig, EngLayoutSml, EngLayoutBig, SymbLayout;
 
     public int arrowPos;
+    
 
     private void Update()
     {
@@ -29,20 +30,22 @@ public class KeyboardScript : MonoBehaviour
         //    }
         //}
 
-        for (int count = 0; count <= TextFields.Length - 1; count++)
-        {
-            //Debug.Log(TextFields[count].isFocused);
-            if (TextFields[count].isFocused)
-            {
-                TextField = TextFields[count];
-                //cursor.transform.position = TextField.transform.position;
-                if(TextField.name == "phone")
-                {
-                    TextFields[count].text = "+7";   
-                }
-            }
-        }
-        Debug.Log(TextField.caretPosition);
+        //for (int count = 0; count <= TextFields.Length - 1; count++)
+        //{
+        //    //Debug.Log(TextFields[count].isFocused);
+        //    if (TextFields[count].isFocused)
+        //    {
+        //        TextField = TextFields[count];
+        //        //cursor.transform.position = TextField.transform.position;
+        //        if(TextField.name == "phone")
+        //        {
+                    
+        //            TextFields[count].text = "+7";   
+        //        }
+        //    }
+        //}
+
+        //Debug.Log(TextField.caretPosition);
         
     }
 
@@ -63,7 +66,7 @@ public class KeyboardScript : MonoBehaviour
     public void alphabetFunction(string alphabet)
     {
         TextField.text = TextField.text.Insert(TextField.text.Length - TextField.caretPosition, alphabet);
-        TextField.Select();
+        //TextField.Select();
         //RightArrowFunction();
         //TextField.caretPosition = TextField.text.Length;
         //TextField.text.Insert(TextField.caretPosition, alphabet);

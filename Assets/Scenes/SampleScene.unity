@@ -1778,6 +1778,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OSK: {fileID: 856617881}
+  _kbScript: {fileID: 2452114810059306371}
+  isPhone: 0
 --- !u!1 &43904952
 GameObject:
   m_ObjectHideFlags: 0
@@ -11237,6 +11239,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OSK: {fileID: 856617881}
+  _kbScript: {fileID: 2452114810059306371}
+  isPhone: 0
 --- !u!1 &241401271
 GameObject:
   m_ObjectHideFlags: 0
@@ -53898,6 +53902,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OSK: {fileID: 856617881}
+  _kbScript: {fileID: 2452114810059306371}
+  isPhone: 0
 --- !u!1 &1255695625
 GameObject:
   m_ObjectHideFlags: 0
@@ -55379,7 +55385,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: +7
+  m_Text: "\u0442\u0435\u043B\u0435\u0444\u043E\u043D"
 --- !u!222 &1298565281
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -80259,6 +80265,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OSK: {fileID: 856617881}
+  _kbScript: {fileID: 2452114810059306371}
+  isPhone: 0
 --- !u!1 &1860810649
 GameObject:
   m_ObjectHideFlags: 0
@@ -83570,6 +83578,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OSK: {fileID: 856617881}
+  _kbScript: {fileID: 2452114810059306371}
+  isPhone: 0
 --- !u!1 &1948188052
 GameObject:
   m_ObjectHideFlags: 0
@@ -87217,6 +87227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OSK: {fileID: 856617881}
+  _kbScript: {fileID: 2452114810059306371}
+  isPhone: 0
 --- !u!1 &2042963295
 GameObject:
   m_ObjectHideFlags: 0
@@ -91588,6 +91600,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OSK: {fileID: 856617881}
+  _kbScript: {fileID: 0}
+  isPhone: 0
 --- !u!114 &2143869853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91734,13 +91748,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextField: {fileID: 0}
-  TextFields:
-  - {fileID: 1945448785}
-  - {fileID: 1248845314}
-  - {fileID: 36134774}
-  - {fileID: 239183724}
-  - {fileID: 1859046691}
-  - {fileID: 2032767141}
   cursor: {fileID: 480106251}
   RusLayoutSml: {fileID: 2452114811277446541}
   RusLayoutBig: {fileID: 1313664586}
