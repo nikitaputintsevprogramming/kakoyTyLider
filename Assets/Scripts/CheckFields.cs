@@ -63,14 +63,14 @@ namespace UI.Pagination
             // Уменьшаем альфа-канал от 255 до 0
             while (alpha > 0)
             {
-                alpha -= Time.deltaTime * 200; // Изменение скорости анимации по вашему желанию
+                alpha -= Time.deltaTime * 250f; // Изменение скорости анимации по вашему желанию
                 TextFields[num].GetComponent<Image>().color = new Color32(255, 255, 255, (byte)alpha);
                 yield return null;
             }
             // Увеличиваем альфа-канал от 0 до 255
             while (alpha < 255)
             {
-                alpha += Time.deltaTime * 200; // Изменение скорости анимации по вашему желанию
+                alpha += Time.deltaTime * 250f; // Изменение скорости анимации по вашему желанию
                 TextFields[num].GetComponent<Image>().color = new Color32(255, 255, 255, (byte)alpha);
                 yield return null;
             }

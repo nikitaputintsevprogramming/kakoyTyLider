@@ -19,10 +19,9 @@ public class KbOpenClose : MonoBehaviour, ISelectHandler
     {
         OSK.SetActive(true);
         _kbScript.TextField = gameObject.GetComponent<InputField>();
-        if(_kbScript.TextField.gameObject.name == "phone" && !isPhone)
+        if(_kbScript.TextField.gameObject.name == "phone" && _kbScript.TextField.text.Length == 0)
         {
             _kbScript.TextField.text = "+7";
-            isPhone = true;
         }
     }
 }
