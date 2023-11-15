@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 
 namespace UI.Pagination
 {
@@ -11,6 +12,10 @@ namespace UI.Pagination
         [SerializeField] private Toggle checkMark;
 
         [SerializeField] private GameObject vertPag;
+
+        public string path = ""; // путь к файлу
+        public string nameFile = "DataOfUsers.txt"; // название файла
+        private string filePath = "DataOfUsers.txt";
 
         public void CheckAnswersInFields()
         {
@@ -47,6 +52,8 @@ namespace UI.Pagination
                             Debug.Log("телефон верен");
                             if (checkMark.isOn)
                             {
+                                //OnSave();
+                                SaveUserData();
                                 vertPag.GetComponent<PagedRect>().NextPage();
                             }
                             else
@@ -70,6 +77,40 @@ namespace UI.Pagination
                     StartCoroutine(FeelTheField(count));
                     break;
                 }
+            }
+        }
+
+        public void OnSave()
+        { // функция сохранения
+            StreamWriter sw = new StreamWriter(path + "/" + nameFile); // создаём файл
+            for (int count = 0; count < TextFields.Length; count++)
+            {
+                sw.WriteLine(TextFields[count].text); // записываем в файл строку
+            }
+            sw.Close(); // закрываем файл
+        }
+
+        public void SaveUserData()
+        {
+            string userData = "";
+
+            foreach (InputField inputField in TextFields)
+            {
+                userData += inputField.text + " ";
+            }
+
+            WriteToFile(userData.Trim());
+        }
+
+        private void WriteToFile(string data)
+        {
+            if (File.Exists(filePath))
+            {
+                File.AppendAllText(filePath, data + "\n");
+            }
+            else
+            {
+                File.WriteAllText(filePath, data + "\n");
             }
         }
 
