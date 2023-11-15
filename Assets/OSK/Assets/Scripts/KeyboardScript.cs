@@ -82,7 +82,7 @@ public class KeyboardScript : MonoBehaviour
             CloseAllLayouts();
             ShowLayout(RusLayoutBig);
         }
-        else if (TextField.text.Length <= 1)
+        else if (TextField.gameObject.name == "father" || TextField.gameObject.name == "name" || TextField.gameObject.name == "surname" && TextField.text.Length <= 1)
         {
             CloseAllLayouts();
             ShowLayout(RusLayoutSml);

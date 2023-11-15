@@ -43,7 +43,7 @@ public class KbOpenClose : MonoBehaviour, ISelectHandler
             _kbScript.ShowLayout(_kbScript.RusLayoutBig);
             print("father");
         }
-        else
+        else if(_kbScript.TextField.gameObject.name == "father" || _kbScript.TextField.gameObject.name == "name" || _kbScript.TextField.gameObject.name == "surname" && _kbScript.TextField.text.Length <= 10)
         {
             _kbScript.CloseAllLayouts();
             _kbScript.ShowLayout(_kbScript.RusLayoutSml);
