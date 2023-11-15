@@ -54,7 +54,7 @@ namespace UI.Pagination
                             if (checkMark.isOn)
                             {
                                 //OnSave();
-                                SaveUserData();
+                                //SaveUserData();
                                 vertPag.GetComponent<PagedRect>().NextPage();
                             }
                             else

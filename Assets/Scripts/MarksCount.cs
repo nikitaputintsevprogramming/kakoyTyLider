@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
-namespace Marks
+namespace UI.Pagination
 { 
     public class MarksCount : MonoBehaviour
     {
@@ -20,6 +20,8 @@ namespace Marks
         [SerializeField] private float _size100 = 440f;
 
         [SerializeField] private bool isOnResults;
+
+        [SerializeField] private GameObject CheckFieldsObject; 
 
         private void Update()
         {
@@ -61,8 +63,9 @@ namespace Marks
               
         //}
         public void MarksResultOn()
-        {
-            for(int count = 0; count < _MarksInBlocks.Length; count++)
+        { 
+
+            for (int count = 0; count < _MarksInBlocks.Length; count++)
             {
                 float result = _MarksInBlocks[count] / 3.0f;
                 int roundedResult = Mathf.RoundToInt(result * 100); // Умножаем на 100, чтобы перевести дробное число в проценты и округляем
@@ -84,6 +87,7 @@ namespace Marks
 
         public void ShowRes()
         {
+            CheckFieldsObject.GetComponent<CheckFields>().SaveUserData();
             isOnResults = true;
         }
     }

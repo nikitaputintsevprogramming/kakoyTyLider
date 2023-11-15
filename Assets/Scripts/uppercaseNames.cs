@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class uppercaseNames : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         transform.GetComponent<Text>().text = transform.GetComponent<Text>().text.ToUpper();
@@ -13,7 +12,6 @@ public class uppercaseNames : MonoBehaviour
         transform.GetComponent<Text>().resizeTextForBestFit = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
 

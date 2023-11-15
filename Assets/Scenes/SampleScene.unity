@@ -40471,7 +40471,10 @@ MonoBehaviour:
   - {fileID: 1859046691}
   - {fileID: 239183724}
   checkMark: {fileID: 536914105}
+  _animGoing: 0
   vertPag: {fileID: 1848015831}
+  path: 
+  nameFile: DataOfUsers.txt
 --- !u!1 &938867555
 GameObject:
   m_ObjectHideFlags: 0
@@ -83193,6 +83196,7 @@ MonoBehaviour:
   _pos100: 220
   _size100: 440
   isOnResults: 0
+  CheckFieldsObject: {fileID: 938439639}
 --- !u!4 &1937042885
 Transform:
   m_ObjectHideFlags: 0
