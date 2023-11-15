@@ -66,6 +66,28 @@ public class KeyboardScript : MonoBehaviour
     public void alphabetFunction(string alphabet)
     {
         TextField.text = TextField.text.Insert(TextField.text.Length - TextField.caretPosition, alphabet);
+
+        if (TextField.gameObject.name == "name" && TextField.text.Length == 0)
+        {
+            CloseAllLayouts();
+            ShowLayout(RusLayoutBig);
+        }
+        else if (TextField.gameObject.name == "surname" && TextField.text.Length == 0)
+        {
+            CloseAllLayouts();
+            ShowLayout(RusLayoutBig);
+        }
+        else if (TextField.gameObject.name == "father" && TextField.text.Length == 0)
+        {
+            CloseAllLayouts();
+            ShowLayout(RusLayoutBig);
+        }
+        else if (TextField.text.Length <= 1)
+        {
+            CloseAllLayouts();
+            ShowLayout(RusLayoutSml);
+        }
+
         //TextField.Select();
         //RightArrowFunction();
         //TextField.caretPosition = TextField.text.Length;
@@ -89,6 +111,31 @@ public class KeyboardScript : MonoBehaviour
         {
             TextField.text = TextField.text.Remove(TextField.text.Length - 1);
         }
+
+        if (TextField.gameObject.name == "name" && TextField.text.Length == 0 )
+        {
+            CloseAllLayouts();
+            ShowLayout(RusLayoutBig);
+        }
+
+        else if (TextField.gameObject.name == "surname" && TextField.text.Length == 0)
+        {
+            CloseAllLayouts();
+            ShowLayout(RusLayoutBig);
+        }
+
+        else if (TextField.gameObject.name == "father" && TextField.text.Length == 0)
+        {
+            CloseAllLayouts();
+            ShowLayout(RusLayoutBig);
+        }
+
+        else if(TextField.text.Length <= 1)
+        {
+            CloseAllLayouts();
+            ShowLayout(RusLayoutSml);
+        }
+
     }
 
     public void CloseAllLayouts()

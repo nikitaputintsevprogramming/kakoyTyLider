@@ -1718,7 +1718,19 @@ MonoBehaviour:
       m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 884491785}
+        m_TargetAssemblyTypeName: FirstUpperLetter, Assembly-CSharp
+        m_MethodName: SetFirstLetterUppercase
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 36134774}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.InputField, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 1, g: 1, b: 1, a: 0}
@@ -36883,6 +36895,7 @@ GameObject:
   - component: {fileID: 847567084}
   - component: {fileID: 847567086}
   - component: {fileID: 847567085}
+  - component: {fileID: 847567087}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -36952,6 +36965,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 847567083}
   m_CullTransparentMesh: 1
+--- !u!114 &847567087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847567083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2adb92dc0ef03a4d93294d9485255c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &856617881
 GameObject:
   m_ObjectHideFlags: 0
@@ -38323,6 +38348,7 @@ GameObject:
   - component: {fileID: 884491782}
   - component: {fileID: 884491784}
   - component: {fileID: 884491783}
+  - component: {fileID: 884491785}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -38392,6 +38418,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884491781}
   m_CullTransparentMesh: 1
+--- !u!114 &884491785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884491781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2adb92dc0ef03a4d93294d9485255c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &885910015
 GameObject:
   m_ObjectHideFlags: 0
@@ -53867,7 +53905,19 @@ MonoBehaviour:
       m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 847567087}
+        m_TargetAssemblyTypeName: FirstUpperLetter, Assembly-CSharp
+        m_MethodName: SetFirstLetterUppercase
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1248845314}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.InputField, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 1, g: 1, b: 1, a: 0}
@@ -82603,6 +82653,7 @@ GameObject:
   - component: {fileID: 1921774791}
   - component: {fileID: 1921774793}
   - component: {fileID: 1921774792}
+  - component: {fileID: 1921774794}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -82672,6 +82723,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921774790}
   m_CullTransparentMesh: 1
+--- !u!114 &1921774794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921774790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2adb92dc0ef03a4d93294d9485255c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1922681328
 GameObject:
   m_ObjectHideFlags: 0
@@ -83544,7 +83607,19 @@ MonoBehaviour:
       m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1921774794}
+        m_TargetAssemblyTypeName: FirstUpperLetter, Assembly-CSharp
+        m_MethodName: SetFirstLetterUppercase
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1945448785}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.InputField, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 1, g: 1, b: 1, a: 0}
@@ -91722,18 +91797,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143869850}
   m_CullTransparentMesh: 1
---- !u!114 &2452114810059306368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2452114810059306373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5ed86bb98803f44b9781db51170b3fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &2452114810059306370
 RectTransform:
   m_ObjectHideFlags: 0
@@ -91791,7 +91854,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2452114810059306370}
   - component: {fileID: 2452114810059306371}
-  - component: {fileID: 2452114810059306368}
   m_Layer: 5
   m_Name: OnScreenKeyboard
   m_TagString: Untagged
@@ -92329,7 +92391,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &2452114811600264792
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -19,9 +19,45 @@ public class KbOpenClose : MonoBehaviour, ISelectHandler
     {
         OSK.SetActive(true);
         _kbScript.TextField = gameObject.GetComponent<InputField>();
-        if(_kbScript.TextField.gameObject.name == "phone" && _kbScript.TextField.text.Length == 0)
+        if (_kbScript.TextField.gameObject.name == "phone" && _kbScript.TextField.text.Length == 0)
         {
             _kbScript.TextField.text = "+7";
         }
+
+        if (_kbScript.TextField.gameObject.name == "surname" && _kbScript.TextField.text.Length == 0)
+        {
+            _kbScript.CloseAllLayouts();
+            _kbScript.ShowLayout(_kbScript.RusLayoutBig);
+            print(_kbScript.TextField);
+        }
+
+        else if (_kbScript.TextField.gameObject.name == "name" && _kbScript.TextField.text.Length == 0)
+        {
+            _kbScript.CloseAllLayouts();
+            _kbScript.ShowLayout(_kbScript.RusLayoutBig);
+            print(_kbScript.TextField);
+        }
+        else if (_kbScript.TextField.gameObject.name == "father" && _kbScript.TextField.text.Length == 0)
+        {
+            _kbScript.CloseAllLayouts();
+            _kbScript.ShowLayout(_kbScript.RusLayoutBig);
+            print("father");
+        }
+        else
+        {
+            _kbScript.CloseAllLayouts();
+            _kbScript.ShowLayout(_kbScript.RusLayoutSml);
+        }
+
+
+        if (_kbScript.TextField.gameObject.name == "email" && _kbScript.TextField.text.Length == 0)
+        {
+            _kbScript.CloseAllLayouts();
+            _kbScript.ShowLayout(_kbScript.EngLayoutSml);
+            print("email");
+        }
+
+
+
     }
 }
