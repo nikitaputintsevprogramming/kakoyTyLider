@@ -23,6 +23,15 @@ namespace UI.Pagination
                         if (TextFields[count].text.Length >= 3 && TextFields[count].text.Contains("@"))
                         {
                             Debug.Log("почта верна");
+                            if (checkMark.isOn)
+                            {
+                                Debug.Log("галочка стоит");
+                            }
+                            else
+                            {
+                                Debug.Log("Поставьте галочку!");
+                                StartCoroutine(FeelTheMark());
+                            }
                         }
                         else
                         {
@@ -36,7 +45,15 @@ namespace UI.Pagination
                         if (TextFields[count].text.Length >= 11 && TextFields[count].text.Contains("+7"))
                         {
                             Debug.Log("телефон верен");
-                            vertPag.GetComponent<PagedRect>().NextPage();
+                            if (checkMark.isOn)
+                            {
+                                vertPag.GetComponent<PagedRect>().NextPage();
+                            }
+                            else
+                            {
+                                Debug.Log("Поставьте галочку!");
+                                StartCoroutine(FeelTheMark());
+                            }
                         }
                         else
                         {
@@ -45,6 +62,7 @@ namespace UI.Pagination
                             break;
                         }
                     }
+  
                 }
                 else
                 {
@@ -72,6 +90,26 @@ namespace UI.Pagination
             {
                 alpha += Time.deltaTime * 250f; // Изменение скорости анимации по вашему желанию
                 TextFields[num].GetComponent<Image>().color = new Color32(255, 255, 255, (byte)alpha);
+                yield return null;
+            }
+        }
+        private IEnumerator FeelTheMark()
+        {
+            // Устанавливаем начальное значение альфа-канала
+            float alpha = 255;
+
+            // Уменьшаем альфа-канал от 255 до 0
+            while (alpha > 0)
+            {
+                alpha -= Time.deltaTime * 250f; // Изменение скорости анимации по вашему желанию
+                checkMark.transform.GetChild(0).GetComponent<Image>().color = new Color32(255, 255, 255, (byte)alpha);
+                yield return null;
+            }
+            // Увеличиваем альфа-канал от 0 до 255
+            while (alpha < 255)
+            {
+                alpha += Time.deltaTime * 250f; // Изменение скорости анимации по вашему желанию
+                checkMark.transform.GetChild(0).GetComponent<Image>().color = new Color32(255, 255, 255, (byte)alpha);
                 yield return null;
             }
         }
