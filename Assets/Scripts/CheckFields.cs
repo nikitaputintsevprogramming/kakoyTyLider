@@ -10,6 +10,7 @@ namespace UI.Pagination
     {
         [SerializeField] private InputField[] TextFields;
         [SerializeField] private Toggle checkMark;
+        [SerializeField] private bool _animGoing;
 
         [SerializeField] private GameObject vertPag;
 
@@ -116,23 +117,39 @@ namespace UI.Pagination
 
         private IEnumerator FeelTheField(int num)
         {
-            // Устанавливаем начальное значение альфа-канала
-            float alpha = 255;
+            
+            if (_animGoing)
+            {
+                yield return null;
+                Debug.Log("Анимация еще идет");
+            }
+            else
+            {
+                _animGoing = true;
+                Debug.Log("Анимация началась");
 
-            // Уменьшаем альфа-канал от 255 до 0
-            while (alpha > 0)
-            {
-                alpha -= Time.deltaTime * 250f; // Изменение скорости анимации по вашему желанию
-                TextFields[num].GetComponent<Image>().color = new Color32(255, 255, 255, (byte)alpha);
-                yield return null;
+                // Устанавливаем начальное значение альфа-канала
+                float alpha = 255;
+
+                // Уменьшаем альфа-канал от 255 до 0
+                while (alpha > 0)
+                {
+                    alpha -= Time.deltaTime * 250f; // Изменение скорости анимации по вашему желанию
+                    TextFields[num].GetComponent<Image>().color = new Color32(255, 255, 255, (byte)alpha);
+                    yield return null;
+                }
+                // Увеличиваем альфа-канал от 0 до 255
+                while (alpha < 255)
+                {
+                    alpha += Time.deltaTime * 250f; // Изменение скорости анимации по вашему желанию
+                    TextFields[num].GetComponent<Image>().color = new Color32(255, 255, 255, (byte)alpha);
+                    yield return null;
+                }
+                TextFields[num].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+                Debug.Log("Анимация завершена");
+                _animGoing = false;
             }
-            // Увеличиваем альфа-канал от 0 до 255
-            while (alpha < 255)
-            {
-                alpha += Time.deltaTime * 250f; // Изменение скорости анимации по вашему желанию
-                TextFields[num].GetComponent<Image>().color = new Color32(255, 255, 255, (byte)alpha);
-                yield return null;
-            }
+
         }
         private IEnumerator FeelTheMark()
         {
@@ -153,6 +170,7 @@ namespace UI.Pagination
                 checkMark.transform.GetChild(0).GetComponent<Image>().color = new Color32(255, 255, 255, (byte)alpha);
                 yield return null;
             }
+            checkMark.transform.GetChild(0).GetComponent<Image>().color = new Color32(255, 255, 255, 255);
         }
     }
 }
