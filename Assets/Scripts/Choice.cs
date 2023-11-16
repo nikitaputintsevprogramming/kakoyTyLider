@@ -7,11 +7,13 @@ public class Choice : MonoBehaviour
 {
     [SerializeField] private GameObject[] _buttons;
     [SerializeField] private Button _nextButton;
-    [SerializeField] private Sprite _whiteButton;
+    public Sprite _whiteButton;
     [SerializeField] private Sprite _redButton;
 
     [SerializeField] private Sprite _whiteButtonNext;
     [SerializeField] private Sprite _noneButtonNext;
+
+    public float markButton;
 
     private bool isClicked = false;
 
@@ -27,6 +29,11 @@ public class Choice : MonoBehaviour
 
     public void ChangeButton()
     {
+        for (int i = 0; i < _buttons.Length; i++)
+        {
+            ResetButton();
+        }
+
         transform.GetComponent<Image>().sprite = _whiteButton;
         transform.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
         for (int i = 0; i < transform.GetComponentsInChildren<Text>().Length; i++)
@@ -36,7 +43,7 @@ public class Choice : MonoBehaviour
 
         for (int i = 0; i < _buttons.Length; i++)
         {
-            _buttons[i].GetComponent<Button>().interactable = false;
+            //_buttons[i].GetComponent<Button>().interactable = false;
         }
 
         _nextButton.GetComponent<Image>().sprite = _whiteButtonNext;
@@ -49,7 +56,7 @@ public class Choice : MonoBehaviour
         {
             _buttons[i].GetComponent<Button>().interactable = true;
             _buttons[i].GetComponent<Image>().sprite = _redButton;
-            _buttons[i].GetComponent<Image>().color = new Color32(248, 165, 186, 255);
+            //_buttons[i].GetComponent<Image>().color = new Color32(248, 165, 186, 255);
             for (int b = 0; b < _buttons[i].GetComponentsInChildren<Text>().Length; b++)
             {
                 _buttons[i].GetComponentsInChildren<Text>()[b].color = Color.white;

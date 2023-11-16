@@ -7,19 +7,19 @@ namespace UI.Pagination
 { 
     public class MarksCount : MonoBehaviour
     {
-        [SerializeField] private float[] _MarksInBlocks = new float[5];
-        [SerializeField] private int _questionsInBlock = 3;
+        public float[] _MarksInBlocks = new float[5];
+        public int _questionsInBlock = 3;
 
-        [SerializeField] private int _currentQuestion = 0;
-        [SerializeField] private int _currentBlock = 0;
-        [SerializeField] private float _countMarks = 0;
+        public int _currentQuestion = 0;
+        public int _currentBlock = 0;
+        public float _countMarks = 0;
 
         public Image[] _resultDiagramms;
-        [SerializeField] private float _speedDiagram = 2f;
-        [SerializeField] private float _pos100 = 220f;
-        [SerializeField] private float _size100 = 440f;
+        public float _speedDiagram = 2f;
+        public float _pos100 = 220f;
+        public float _size100 = 440f;
 
-        [SerializeField] private bool isOnResults;
+        public bool isOnResults;
 
         [SerializeField] private GameObject CheckFieldsObject; 
 
@@ -29,20 +29,7 @@ namespace UI.Pagination
                 MarksResultOn();
         }
 
-        public void AddMark(float mark)
-        { 
-            _currentQuestion++;
-            _countMarks += mark;
-            Debug.LogFormat("Текущий блок:{0}, текущий вопрос:{1},  баллы:{2}", _currentBlock, _currentQuestion, _countMarks);
-            if (_currentQuestion == _questionsInBlock)
-            {
-                Debug.LogFormat("Блок закончился. Вы набрали в блоке:{0} столько баллов:{1}", _currentBlock, _countMarks);
-                _MarksInBlocks[_currentBlock] = _countMarks;
-                _currentBlock++;
-                _currentQuestion = 0;
-                _countMarks = 0;
-            }
-        }
+        
 
         public void ResetMarks()
         {
