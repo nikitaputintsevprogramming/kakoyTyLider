@@ -51,7 +51,6 @@ public class KbOpenClose : MonoBehaviour, ISelectHandler
             _kbScript.ShowLayout(_kbScript.RusLayoutSml);
         }
 
-
         if (_kbScript.TextField.gameObject.name == "email" && _kbScript.TextField.text.Length == 0)
         {
             _kbScript.CloseAllLayouts();
