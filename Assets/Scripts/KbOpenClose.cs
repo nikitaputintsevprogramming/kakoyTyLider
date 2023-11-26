@@ -21,6 +21,8 @@ public class KbOpenClose : MonoBehaviour, ISelectHandler
         _kbScript.TextField = gameObject.GetComponent<InputField>();
         if (_kbScript.TextField.gameObject.name == "phone" && _kbScript.TextField.text.Length == 0)
         {
+            _kbScript.CloseAllLayouts();
+            _kbScript.ShowLayout(_kbScript.RusLayoutBig);
             _kbScript.TextField.text = "+7";
         }
 
@@ -56,8 +58,5 @@ public class KbOpenClose : MonoBehaviour, ISelectHandler
             _kbScript.ShowLayout(_kbScript.EngLayoutSml);
             print("email");
         }
-
-
-
     }
 }
