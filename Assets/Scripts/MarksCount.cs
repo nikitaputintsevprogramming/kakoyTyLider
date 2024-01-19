@@ -74,7 +74,7 @@ namespace UI.Pagination
 
         public void ShowRes()
         {
-            CheckFieldsObject.GetComponent<CheckFields>().SaveUserData();
+            //CheckFieldsObject.GetComponent<CheckFields>().SaveUserData();
             isOnResults = true;
         }
     }
